@@ -3,6 +3,7 @@ import os
 import random
 import time
 
+
 app = Flask(__name__)
 
 # fallback cat images, used when cataas.com is unavailable
