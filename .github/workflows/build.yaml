@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE: catnip
-      DOCKER_USER: ${{ secrets.DOCKER_USER }}
+      DOCKER_USER: david2421b
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
